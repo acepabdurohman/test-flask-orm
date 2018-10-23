@@ -17,7 +17,9 @@ request: {
 
 type:GET
 
-endpoint: /users/<id>
+endpoint: /users/{id}
+
+
 
 
 
