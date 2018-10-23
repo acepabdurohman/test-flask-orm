@@ -2,10 +2,10 @@ from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
 
-app = Flask(__name__)
-app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///dbidentity'
-db = SQLAlchemy(app)
-ma = Marshmallow(app)
+application = Flask(__name__)
+application.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///dbidentity'
+db = SQLAlchemy(application)
+ma = Marshmallow(application)
 
 class User(db.Model):
     __tablename__ = 't_user'
@@ -38,4 +38,4 @@ def add_user():
     return user_schema.jsonify(new_user)
 
 if __name__ == '__main__':
-    app.run(port=8080)
+    application.run(port=8080)
