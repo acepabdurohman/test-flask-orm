@@ -1,2 +1,6 @@
 gunicorn
 Flask
+request
+jsonify
+SQLAlchemy
+Marshmallow
