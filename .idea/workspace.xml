@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="dca7e852-1adc-4caf-8810-037351db9780" name="Default Changelist" comment="" />
+    <list default="true" id="dca7e852-1adc-4caf-8810-037351db9780" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/dbidentity" beforeDir="false" afterPath="$PROJECT_DIR$/dbidentity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wsgi.py" beforeDir="false" afterPath="$PROJECT_DIR$/wsgi.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,14 +23,14 @@
         <counts>
           <entry key="Python Console" value="10" />
           <entry key="dummy" value="4" />
-          <entry key="py" value="523" />
+          <entry key="py" value="1397" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="8" />
-          <entry key="Python" value="533" />
+          <entry key="Python" value="1407" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
@@ -52,10 +55,12 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wsgi.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="27" column="4" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="4" />
+            <state relative-caret-position="217">
+              <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
+                <marker date="1540272145627" expanded="true" signature="944:946" ph="..." />
+                <marker date="1540272145627" expanded="true" signature="1910:2030" ph="..." />
               </folding>
             </state>
           </provider>
@@ -83,6 +88,11 @@
         <option value="Flask Main" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>app</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -200,7 +210,7 @@
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" weight="0.32919255" />
-      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.4704969" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.30279502" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32919255" />
@@ -238,10 +248,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wsgi.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="4" />
+        <state relative-caret-position="217">
+          <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
+            <marker date="1540272145627" expanded="true" signature="944:946" ph="..." />
+            <marker date="1540272145627" expanded="true" signature="1910:2030" ph="..." />
           </folding>
         </state>
       </provider>
