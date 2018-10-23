@@ -17,11 +17,27 @@ request: {
 
 type:GET
 
+endpoint: /users
+
+# get all users data by id
+
+type:GET
+
 endpoint: /users/{id}
 
+# update user data
 
+type:PUT
 
+endpoint: /users/{id}
 
+request: {
+    "username": "acep",
+    "email": "acep@xxx.com"
+}
 
+# delete user data by id
 
+type:DELETE
 
+endpoint: /users/{id}
