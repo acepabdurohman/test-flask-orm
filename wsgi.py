@@ -25,7 +25,7 @@ class UserSchema(ma.Schema):
 user_schema = UserSchema()
 users_schema = UserSchema(many=True)
 
-@app.route("/user", methods=["POST"])
+@application.route("/user", methods=["POST"])
 def add_user():
     username = request.json['username']
     email = request.json['email']
