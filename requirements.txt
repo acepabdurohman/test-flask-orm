@@ -1,6 +1,4 @@
 gunicorn
 Flask
-request
-jsonify
-SQLAlchemy
-Marshmallow
+flask_sqlalchemy
+flask_marshmallow
