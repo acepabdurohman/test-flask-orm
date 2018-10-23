@@ -1,21 +1,14 @@
 from flask import Flask, request, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from flask_marshmallow import Marshmallow
+from model.models import db
+from model.models import User
 
 application = Flask(__name__)
 application.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///dbidentity'
-db = SQLAlchemy(application)
+db.init_app(application)
+#db = SQLAlchemy(application)
 ma = Marshmallow(application)
-
-class User(db.Model):
-    __tablename__ = 't_user'
-    id = db.Column(db.Integer, primary_key=True)
-    username = db.Column(db.String(80), unique=True)
-    email = db.Column(db.String(120), unique=True)
-
-    def __init__(self, username, email):
-        self.username = username
-        self.email = email
 
 class UserSchema(ma.Schema):
     class Meta:
